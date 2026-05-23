@@ -1,0 +1,34 @@
+---
+layout: default
+title: Writing
+---
+
+<section class="home-intro">
+  <p>Essays on teaching, engineering, and the places where they meet. I spent four years writing C++ for production firmware, then became a computer science teacher, and I am still working out what each role taught me about the other.</p>
+</section>
+
+<section class="post-list">
+  <div class="section-label">Writing</div>
+
+  {% for post in site.posts %}
+  <article class="post-item">
+    <h2 class="post-item-title">
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </h2>
+    <div class="post-item-meta">
+      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+      {% if post.tags.size > 0 %}
+      <div class="tags">
+        {% for tag in post.tags %}
+        <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+    {% if post.excerpt %}
+    <p class="post-item-excerpt">{{ post.excerpt | strip_html | truncate: 240 }}</p>
+    {% endif %}
+    <a href="{{ post.url | relative_url }}" class="read-more">Read</a>
+  </article>
+  {% endfor %}
+</section>

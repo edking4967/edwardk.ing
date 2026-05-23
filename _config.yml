@@ -1,0 +1,27 @@
+title: Edward King
+tagline: Writing on Teaching, Engineering & Learning
+description: A writing portfolio by Edward King — essays on teaching, software, and the overlap between them.
+baseurl: ""
+url: "https://edwardk.ing"
+
+author:
+  name: Edward King
+  email: ed.king4967@gmail.com
+
+permalink: /:year/:title/
+excerpt_separator: "<!--more-->"
+
+markdown: kramdown
+highlighter: rouge
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

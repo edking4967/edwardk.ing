@@ -155,6 +155,15 @@ a { color: inherit; text-decoration: none; }
   }
 }
 
+.pub-link {
+  margin-left: 1rem;
+  font-size: 0.85em;
+  opacity: 0.6;
+}
+.pub-link:hover {
+  opacity: 1;
+}
+
 .pub-title {
   font-family: $serif;
   font-size: 1.15em;

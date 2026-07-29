@@ -184,6 +184,32 @@ a { color: inherit; text-decoration: none; }
   color: $light;
 }
 
+.pub-quote {
+  display: block;
+  margin-top: 9px;
+  font-family: $serif;
+  font-style: italic;
+  font-size: 1.05em;
+  color: $muted;
+  line-height: 1.6;
+
+  &::before {
+    content: "\201C";
+    font-size: 1.2em;
+    color: $light;
+    margin-right: 1px;
+    vertical-align: -1px;
+  }
+
+  &::after {
+    content: "\201D";
+    font-size: 1.2em;
+    color: $light;
+    margin-left: 1px;
+    vertical-align: -1px;
+  }
+}
+
 // ── Post List ──────────────────────────────────────────────
 .post-list {
   padding-top: 32px;

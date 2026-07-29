@@ -1,34 +1,29 @@
 ---
 layout: default
-title: Writing
+title: Edward King
 ---
 
 <section class="home-intro">
-  <p>Essays on teaching, engineering, and the places where they meet. I spent four years writing C++ for production firmware, then became a computer science teacher, and I am still working out what each role taught me about the other.</p>
+  <p>Edward King is a writer and teacher based in Colorado. He has been published in the University of Colorado Honors Journal and the Colorado's Emerging Writers series. He edits the journal <a href="http://thousandonestories.com">thousandonestories.com</a> and posts detective stories on <a href="http://coffeebreakreads.com">coffeebreakreads.com</a>. He strives to write stories that help his readers discover new possibilities for joy in their lives.</p>
 </section>
 
-<section class="post-list">
-  <div class="section-label">Writing</div>
+<section class="home-links">
+  <a href="http://thousandonestories.com">Thousand &amp; One Stories</a>
+  <span class="divider">|</span>
+  <a href="http://coffeebreakreads.com">Coffee Break Reads</a>
+</section>
 
-  {% for post in site.posts %}
-  <article class="post-item">
-    <h2 class="post-item-title">
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </h2>
-    <div class="post-item-meta">
-      <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
-      {% if post.tags.size > 0 %}
-      <div class="tags">
-        {% for tag in post.tags %}
-        <span class="tag">{{ tag }}</span>
-        {% endfor %}
-      </div>
-      {% endif %}
-    </div>
-    {% if post.excerpt %}
-    <p class="post-item-excerpt">{{ post.excerpt | strip_html | truncate: 240 }}</p>
-    {% endif %}
-    <a href="{{ post.url | relative_url }}" class="read-more">Read</a>
-  </article>
-  {% endfor %}
+<section class="publications" id="publications">
+  <div class="section-label">Publications</div>
+
+  <ul class="pub-list">
+    <li><span class="pub-title">Still the One</span> — <span class="pub-venue">Brilliant Flash Fiction</span> — <span class="pub-year">2025</span></li>
+    <li><span class="pub-title">B.</span> — <span class="pub-venue">Short Beasts</span> — <span class="pub-year">2024</span></li>
+    <li><span class="pub-title">Bob Dylan's Beard</span> — <span class="pub-venue">Z Publication: Colorado's Emerging Writers</span> — <span class="pub-year">2018</span></li>
+    <li><span class="pub-title">I Didn't Know a Counter Could Melt Like That</span> — <span class="pub-venue">Z Publication: Colorado's Emerging Writers</span> — <span class="pub-year">2018</span></li>
+    <li><span class="pub-title">Bob Dylan's Beard</span> — <span class="pub-venue">Flatiron Literary Review</span> — <span class="pub-year">2014</span></li>
+    <li><span class="pub-title">Fireworks</span> — <span class="pub-venue">CU Honors Journal</span> — <span class="pub-year">2014</span></li>
+    <li><span class="pub-title">Things Change Fast</span> — <span class="pub-venue">CU Walkabout Journal</span> — <span class="pub-year">2014</span></li>
+    <li><span class="pub-title">Origins of Roberto Blanco</span> — <span class="pub-venue">Cultured Vultures</span> — <span class="pub-year">2013</span></li>
+  </ul>
 </section>

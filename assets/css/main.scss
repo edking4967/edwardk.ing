@@ -50,6 +50,21 @@ a { color: inherit; text-decoration: none; }
   align-items: flex-end;
 }
 
+.site-identity {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.site-avatar {
+  width: 56px;
+  height: 56px;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  border: 1.5px solid $navy;
+  flex-shrink: 0;
+}
+
 .site-title {
   font-family: $serif;
   font-size: 2.2em;

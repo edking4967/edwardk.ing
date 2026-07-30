@@ -11,6 +11,11 @@ author:
 markdown: kramdown
 highlighter: rouge
 
+collections:
+  stories:
+    output: true
+    permalink: /stories/:slug/
+
 sass:
   sass_dir: _sass
   style: compressed

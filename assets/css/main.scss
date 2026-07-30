@@ -59,6 +59,8 @@ a { color: inherit; text-decoration: none; }
 .site-avatar {
   width: 56px;
   height: 56px;
+  max-width: 56px;
+  max-height: 56px;
   image-rendering: pixelated;
   image-rendering: crisp-edges;
   flex-shrink: 0;

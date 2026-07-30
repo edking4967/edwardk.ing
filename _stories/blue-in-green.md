@@ -5,6 +5,8 @@ venue: Fiction365
 year: 2012
 ---
 
+*Fiction365 went defunct several years ago. Story reprinted here.*
+
 Well, now you have her here.
 
 The movie is over and you asked what she wanted to do next and she said, "whatever," and you started to drive, and she doesn't seem to mind. She doesn't seem bored. You have her here and you're driving up the road to Horsetooth Rock and it's eleven o'clock on a Friday night, and college applications are gone from your mind completely.

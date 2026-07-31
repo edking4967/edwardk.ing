@@ -5,6 +5,9 @@ venue: Walkabout
 year: 2014
 published: false
 ---
+
+*Reprinted here with permission from Walkabout*
+
 Things change fast, and so it is brave to be alive and in the present. Just last year I rode my bicycle to work every day; now I wait for the bus with my newspaper and my tea. I live in the middle of a noisy city; every afternoon at 3 o’clock I can hear the fireworks go off in the park, and sometimes I can’t sleep at night from the cars. There are some things I still don’t understand—who needs to take a taxi at three o’clock in the morning, for example?—but on the whole I have made my peace with everything. 
 
 Sometimes I wish I still had my father’s sound advice to guide me. Yesterday I visited the supermarket, for instance. I am already used to the men from the West in their suits, but each day it seems my capacity for amazement grows a bigger cup to overflow, and today was no different. It was on the way back from buying food that I saw them, and I had heavy plastic bags, and one of them bumped into me and said something to me in his strange language of which I know only one or two words. I assumed it was a mistake; I responded quite politely and was ready to be on my way, but to my surprise when I looked in his eyes I saw that he understood what I was saying. I didn’t respond at the time, but though it sounds foolish I couldn’t sleep last night from thinking about it. 

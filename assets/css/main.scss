@@ -579,6 +579,14 @@ a { color: inherit; text-decoration: none; }
 
 .coach-contact {
   padding-top: 4px;
+
+  .section-label {
+    font-size: 0.95em;
+    letter-spacing: 0.1em;
+    border-bottom-width: 2px;
+    padding-bottom: 8px;
+    margin-bottom: 18px;
+  }
 }
 
 .coach-contact-row {
